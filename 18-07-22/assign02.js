@@ -12,6 +12,7 @@ function checkPalandrome(num) {
         console.log(original);
     }
 }
+
 for (let i = 1; i < 50; i++) {
     // program for prime
     let count = 0, temp = 0;

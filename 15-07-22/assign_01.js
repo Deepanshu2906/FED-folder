@@ -1,3 +1,11 @@
+// Given a positive integer A, 
+// find a pair of integer a, b 
+// such that
+// a and b are positive
+// A <= B
+// a^2 + b^2 = Ab 
+// 0<=A<=100000   
+
 function findMax(num){
     let i=0;
     for(;i*i<=num;i++){
@@ -5,7 +13,6 @@ function findMax(num){
     }
     return (i-1);
 }
-
 
 function find(num){
 
@@ -22,5 +29,5 @@ function find(num){
     }
 }
 
-
+// calling function
 find(50);
