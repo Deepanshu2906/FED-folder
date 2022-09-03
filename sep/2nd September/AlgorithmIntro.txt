@@ -1,0 +1,46 @@
+1. what is Algorithm ?
+
+    => Set of steps to solve a problem.
+    => Formula to solve a problem.
+    => Set of instructions.
+    => Way to represent a solustion.
+    => Like a machine.
+    => Make easy for real world example.
+
+ Algorithm => Set of instrruction.(Regress / strict type)
+ Function =>     wrapper which wraps set of instructions.
+
+    => Dijkshtra's Shortest Path Algorithm
+
+ What  to Analysis algorithm ?
+
+ Why to Analyze algorithm ?   / becoz which one the best algo
+
+ How to Analyze algorithm ?   
+  => Order of Growth
+      linear (N*1), Quardatic (N*N )... etc
+
+      For larger N relationship among functions:
+
+
+      N*N > N! > 2*N > N*2 > N sqroot(N) > N *log N >N > sqroot(N) > log N
+      lograthmic growth: logN
+
+Note. 1.Slower the order of growth faster the algorithm
+      2. Also space will be taken less.
+
+
+  => Asymptotic Analysis
+  => Time complexity
+      Type of complexity  :
+      1. Big O    
+        => It describes the UPPER Bound algorithmic complexity      
+        => worst case senario.
+        => lttle O  is loose upper bound ie o(n) may be o(n2);
+
+      2. Theta notation 
+        => In between Upper and lower bound algorithmic complexity.
+        => average time complexity.
+      3. Omega notation 
+        => It describes the LOWER bound of algorithmic complexity.
+        => best case secenario.

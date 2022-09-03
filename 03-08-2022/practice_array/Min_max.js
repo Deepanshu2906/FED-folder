@@ -1,7 +1,7 @@
 //  WAp to find the Maximum and minumum element 
 // using linear search approach
 function find_min_max(arr){
-    // let minValue =arr[0];
+    // let minValue =arr[0]; // fail gai ye approach
     // let maxValue = arr[1];
     let minValue = Number.MAX_VALUE;
      let maxValue = Number.MIN_VALUE;
