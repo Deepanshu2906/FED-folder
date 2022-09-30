@@ -13,10 +13,8 @@ function starPattern(row){
         {
             stars +="*";
         }
-        stars +="\n";
-       
+        stars +="\n"; 
     }
     console.log(stars);
-
 }
 starPattern(5);

@@ -1,5 +1,5 @@
 
-
+// print all the subset of pair  to the  given target sum.
 let combArr = [];
 function printSum(array, sum, start) {
     // base condition
@@ -32,9 +32,9 @@ function printSum(array, sum, start) {
 
             sum1.push(array[start], array[j]);
             
-            let result = combArr.some( a => a.every((v, ind) => v == sum1[ind]));
+            let isDuplicate = combArr.some( a => a.every((v, ind) => v == sum1[ind]));
         
-            if(!result){
+            if(!isDuplicate){
                 combArr.push(sum1);
             }
         }

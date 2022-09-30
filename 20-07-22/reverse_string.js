@@ -11,5 +11,5 @@ function reverseString(str){
     }
     console.log("here idsthe reverse = "+revStr);
 }
-reverseString("Deepanshu");
+reverseString("Deepanshu  goyal");
 

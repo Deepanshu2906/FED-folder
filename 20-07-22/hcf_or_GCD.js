@@ -7,5 +7,6 @@ function findHCF(num1,num2){
         }
     }
 }
-findHCF(24,5);
+//findHCF(24,5);
+findHCF(18,24);
 console.log(hcf_value);
