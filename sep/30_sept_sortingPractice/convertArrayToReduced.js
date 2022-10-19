@@ -3,14 +3,22 @@
 // convert  1st  maximum to  n-1
 // second maximum to n-2;
 //... 0 = n
-let arr =[1,2 ,5, 10, 4];
-console.log(arr);
 
-let  b = [...arr.sort((a,b)=> a-b)];
-console.log(b);
+function findReducedArray(arr){
 
-for( let i=b.length-1;i >=0 ; i++){
-    let index = arr.indexOf(b[i]);
-    arr[index] = i;
+    const  copy= [...arr];
+    for( let i=0; i < arr.length;i++){ 
+        let max = Math.max(...copy);
+        let index = arr.indexOf(max); 
+        arr[index] = copy.length-1;
+     }
 }
-//console.log(arr);
+let arr =[4, 10, 9, 3, 5,10];
+
+ for( let i= arr.length-1; i >=0 ; i--){
+    let index = arr.indexOf(copy[i]);
+    console.log(index);
+    arr[index] = i;
+    console.log(arr);
+}
+console.log(arr);
