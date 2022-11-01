@@ -1,0 +1,112 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#signUpHeader {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 6px;
+    font-size: large;
+
+}
+
+.container {
+    margin: 36px;
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 6px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+.input-radio {
+    display: inline;
+    width: max-content;
+    margin: 0;
+    height: max-content;
+    margin-bottom: 12px;
+}
+
+.label-radio {
+    display: inline;
+    width: max-content;
+    margin: 0;
+    margin-right: 18px;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+
+select {
+    display: inline-block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 12px;
+}
+
+.check-label {
+    display: inline;
+    width: fit-content;
+}
+
+.check-input {
+    display: inline;
+    width: fit-content;
+    height: max-content;
+}
+
+.left {
+    /* Percent is relative to its parent. */
+    width: 50%;
+    height: 50%;
+}
+
+img {
+    width: 75%;
+}
+
+.right {
+    width: 50%;
+}
+
+
+/* ONly when screen size is less than 501px. */
+@media only screen and (max-width: 500px) {
+    .container {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    img {
+        width: 40%;
+    }
+}
+
+
+/* CSS at the end of file will have greater priority than what is on top */

@@ -1,0 +1,64 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#signUpHeader {
+    text-align: center;
+}
+
+.container {
+    margin: 18px;
+}
+
+label {
+    display: block;
+    font-size: large;
+    margin: 6px;
+}
+
+input {
+    display: block;
+    height: 36px;
+    width: 100%;
+    margin: 6px;
+    margin-bottom: 12px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.input-radio {
+    display: inline;
+    width: max-content;
+    height: max-content;
+}
+
+.label-radio {
+    display: inline;
+    width: max-content;
+}
+
+.check-label {
+    display: inline;
+    width: fit-content;
+}
+
+.check-input {
+    display: inline;
+    width: fit-content;
+    height: max-content;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+select {
+    display: inline-block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
