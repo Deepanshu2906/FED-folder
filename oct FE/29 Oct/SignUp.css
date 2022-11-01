@@ -2,20 +2,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#signUpHeader {
+#SignupHeader {
     text-align: center;
 }
 
+.container {
+    margin: 10px;
+}
+
 label {
+
     display: block;
     margin: 6px;
     font-size: large;
 
-}
-
-.container {
-    margin: 36px;
-    display: flex;
 }
 
 input {
@@ -34,7 +34,8 @@ input {
     width: max-content;
     margin: 0;
     height: max-content;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
+    ;
 }
 
 .label-radio {
@@ -45,68 +46,32 @@ input {
 }
 
 textarea {
-    width: 100%;
     display: block;
-    border: 1px solid lightgray;
-    border-radius: 4px;
+    width: 100%;
 }
-
 
 select {
-    display: inline-block;
+    display: block;
     width: 100%;
-    height: 38px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
     border-radius: 4px;
-    margin: 12px;
-}
-
-.check-label {
-    display: inline;
-    width: fit-content;
+    height: 38px;
+    margin-bottom: 12px;
 }
 
 .check-input {
     display: inline;
     width: fit-content;
-    height: max-content;
+    height: fit-content;
+    margin-top: 12px;
 }
 
-.left {
-    /* Percent is relative to its parent. */
-    width: 50%;
-    height: 50%;
+.check-label {
+    display: inline;
+
 }
 
-img {
-    width: 75%;
+button {
+    display: block;
+    margin: 6px;
 }
-
-.right {
-    width: 50%;
-}
-
-
-/* ONly when screen size is less than 501px. */
-@media only screen and (max-width: 500px) {
-    .container {
-        display: block;
-    }
-
-    .left {
-        width: 100%;
-        height: 180px;
-        text-align: center;
-    }
-
-    .right {
-        width: 100%;
-    }
-
-    img {
-        width: 40%;
-    }
-}
-
-
-/* CSS at the end of file will have greater priority than what is on top */

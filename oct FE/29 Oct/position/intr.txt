@@ -1,0 +1,24 @@
+
+Position.
+Default-> The way elements are added in code is the way they will appear on page.
+Default position => Static Position
+
+
+Position.
+    => top, bottom, right, left.
+
+2 types.
+1. Static -> Static/Default.
+2. Relative -> Relative, Absolute, Fixed.
+   1. relative : means  to its original position.
+   2. absolute: it will check for its parent it it is non- static  if not then viewport ke according
+
+
+Responsive Designs.
+
+1. Media Query.
+2. BreakPoints.
+
+An Obvious Solution.
+    1. To write an alternative css for mobile device. - media query.
+    2. A technique to apply this css when screen is mobile size. - breakpoints.

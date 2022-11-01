@@ -1,5 +1,4 @@
 label {
-    /* not working */
     height: 34px;
 }
 
@@ -15,8 +14,6 @@ label {
 
 img {
     /* Box Model -> Content, Border, Padding, Margin */
-    width: 100px;
-    height: 100px;
     /* width style color */
     border: 4px solid darkmagenta;
 
