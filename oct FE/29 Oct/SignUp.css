@@ -6,8 +6,14 @@
     text-align: center;
 }
 
+#header4 {
+    padding: 6px;
+}
+
 .container {
     margin: 10px;
+    display: flex;
+    ;
 }
 
 label {
@@ -68,10 +74,45 @@ select {
 
 .check-label {
     display: inline;
-
 }
 
 button {
     display: block;
     margin: 6px;
 }
+
+.left {
+    width: 50%;
+}
+
+img {
+    width: 75%;
+    margin: 25px 40px;
+}
+
+.right {
+    width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    img {
+        width: 40%;
+    }
+}
+
+
+/* CSS at the end of file will have greater priority than what is on top */
