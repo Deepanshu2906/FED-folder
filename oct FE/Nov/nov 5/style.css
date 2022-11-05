@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sony_name {
+    background-color: black;
+    color: white;
+    text-align: end;
+    height: 36px;
+    padding: 0px 25px;
+}
+
+.left-header {
+    max-width: 90%;
+    display: flex;
+    justify-content: left;
+}
+
+.left-header .select-bar {
+    margin: 0px 8px;
+
+}
+
+.select-bar select {
+    border: none;
+    font-size: medium;
+    padding-top: 10px;
+    color: gray;
+    font-weight: 500;
+
+}
+
+.right-header {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.right-header button {
+    margin-bottom: 8px;
+    border-radius: 14px;
+}
+
+.svg-cover {
+    padding: 10px;
+}
+
+.svg-cover svg {
+    height: 30px;
+    width: 25px;
+}

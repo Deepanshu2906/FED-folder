@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.top-header {
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+
+.icon {
+    color: white;
+
+}
+
+.header_left {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header_right {
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    padding: 8px;
+
+}
+
+.icon_cover {
+    margin-top: -5px;
+}
+
+.companyName {
+
+    color: white;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.tag {
+    font-size: smaller;
+    color: lightgray
+}
+
+.btn-editor {
+    background-color: gray;
+    border: 1px solid grey;
+    height: 34px;
+    border-radius: 2px;
+    font-size: smaller;
+    padding: 6px;
+    margin-right: 6px;
+}
+
+.cover {
+    height: 200px;
+    background-color: #36454F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-text {
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.cover-tag {
+    color: grey;
+    font-size: smaller;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-light {
+    border: 2px solid gray;
+
+}
+
+img {
+    height: 350px;
+    width: 220px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer {
+    height: 54px;
+    background-color: #36454F;
+    color: lightgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1 {
+    margin-bottom: 20px;
+}
