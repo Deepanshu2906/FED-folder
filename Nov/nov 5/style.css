@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sony_name {
+    background-color: black;
+    color: white;
+    text-align: end;
+    height: 50px;
+    padding: 0px 25px;
+}
+
+.header {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.left-header {
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.left-header .select-bar {
+    margin: 0px 8px;
+}
+
+.select-bar select {
+    border: none;
+    font-size: medium;
+    padding-top: 10px;
+    color: gray;
+    font-weight: 500;
+    background-color: inherit;
+
+}
+
+.right-header {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.right-header button {
+    margin-bottom: 8px;
+    border-radius: 20px;
+    font-size: small;
+    padding: 6px;
+}
+
+.svg-cover {
+    padding: 10px;
+}
+
+.svg-cover svg {
+    height: 30px;
+    width: 25px;
+}
+
+.carousel-item img:nth-child(1) {
+    /* width: 80px; */
+    height: 500px;
+}
+
+.slide {
+    margin: 20px 50px;
+    border-radius: 20px;
+
+}
+
+.game-card {
+    height: fit-content;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 90px;
+}
+
+.game-card img {
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    /* outline: 4px blue; */
+    margin: 10px 10px;
+}
+
+.game-card img:hover {
+
+    margin-bottom: 12px;
+    /* padding-bottom: 10px; */
+    box-shadow: 0px 12px 6px 0px lightgray;
+    height: 130px;
+    width: 210px;
+    z-index: 1;
+    border: 5px solid lightskyblue;
+
+}
+
+.ps-5 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.left-ps5 {
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.left-ps5 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+.left-ps5 p,
+button {
+    font-size: 28px;
+    color: gray;
+}
+
+.left-ps5 button {
+
+    font-size: 24px;
+    padding: 6px;
+    color: white;
+    background-color: blue;
+    border-radius: 24px;
+}
+
+.right-ps5 {
+    width: 50%;
+}
+
+.right-ps5 img {
+    height: 100%;
+    width: 100%;
+}
+
+/*game palying accecories */
+.game-accesory {
+    height: fit-content;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 90px;
+}
+
+.game-accesory img {
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+    /* outline: 4px blue; */
+    margin: 20px 20px;
+}
