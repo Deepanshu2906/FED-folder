@@ -1,10 +1,10 @@
 
 
 function verify(upi, cb) {
-    setInterval((upi) => {
+    setTimeout(() => {
         console.log("Verified ");
         cb();
-        // cb();  at third party my mistake may be called two times
+        // cb();  at third party my mistake may be called many times
     }, 2000);
 }
 

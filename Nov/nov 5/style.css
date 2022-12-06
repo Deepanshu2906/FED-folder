@@ -21,7 +21,11 @@
 }
 
 .header {
-    height: 80px;
+    position: sticky;
+    top :0;
+    z-index: 99;
+    width: 100%;
+    height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -66,49 +70,53 @@
 .svg-cover {
     padding: 10px;
 }
+.signup{
+    padding: 5px 20px !important;
+    border: none;
+}
 
 .svg-cover svg {
     height: 30px;
     width: 25px;
 }
+.cover img{
+    width: 100%;
+    
+}
 
 .carousel-item img:nth-child(1) {
     /* width: 80px; */
-    height: 500px;
+    height: 460px;
 }
 
 .slide {
-    margin: 20px 50px;
+    margin: 20px 40px;
     border-radius: 20px;
 
 }
 
 .game-card {
     height: fit-content;
-    margin: 40px;
+    margin: 40px 160px;
     padding: 10px;
     display: flex;
     justify-content: center;
-    margin: 10px 90px;
+    gap:3px;
 }
 
 .game-card img {
     height: 120px;
-    width: 200px;
-    border-radius: 10px;
-    /* outline: 4px blue; */
-    margin: 10px 10px;
+    width: 100%;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
 }
 
 .game-card img:hover {
-
-    margin-bottom: 12px;
-    /* padding-bottom: 10px; */
-    box-shadow: 0px 12px 6px 0px lightgray;
-    height: 130px;
-    width: 210px;
-    z-index: 1;
-    border: 5px solid lightskyblue;
+    transform:translateY(-10px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    border: 4px solid blue;
+    transition:  0.4s ease-in-out;
 
 }
 
@@ -161,18 +169,17 @@ button {
 
 /*game palying accecories */
 .game-accesory {
-    height: fit-content;
-    margin: 40px;
-    padding: 10px;
+    /* height:150px; */
+    /* width:100px; */
     display: flex;
     justify-content: center;
-    margin: 10px 90px;
+    align-items: center;
+    margin: 40px 120px;
 }
 
 .game-accesory img {
-    height: 100px;
-    width: 80px;
+    height: fit-content;
+    width: 100px;
     border-radius: 10px;
-    /* outline: 4px blue; */
-    margin: 20px 20px;
+    margin: 0px 20px;
 }

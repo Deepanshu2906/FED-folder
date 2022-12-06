@@ -2,7 +2,7 @@
 
 const veryfyCardModule = require("./verifyCard");
 
-function placeOrder(){
+function placeOrder() {
 
     // 1. verify card
     const promise = veryfyCardModule.verify(2024);
@@ -11,30 +11,30 @@ function placeOrder(){
     promise.then(
 
         // when promise is fulfilled
-        (msg)=>{
+        (msg) => {
             console.log(msg);
             throw new Error("Error inside then fulfulled callback");
             deductAmount();
-            },
+        },
 
         // when promise is rejected.
-        (err)=>{
+        (err) => {
             // failure parameter msg
             console.log("Error handling inside then");
             console.log(err);
-            
+
         }
 
-    ).catch((err) =>{
+    ).catch((err) => {
         console.log("Error handling in catch function");
         console.log(err);
     });
 }
 
-function deductAmount(err){
-    if(err){
+function deductAmount(err) {
+    if (err) {
         console.log(err);
-    }else {
+    } else {
         console.log("Amount deducted");
     }
 }
